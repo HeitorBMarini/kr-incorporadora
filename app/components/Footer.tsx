@@ -27,42 +27,42 @@ export default function Footer() {
 
         {/* Contato */}
         <div className="flex flex-col items-center md:items-start">
-          <h3 className="mb-4 text-lg ">Contato</h3>
+          <h3 className="mb-4 text-lg">Contato</h3>
 
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+          <ul className="space-y-5 text-sm">
+            <li className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-2 md:gap-3 text-center md:text-left">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--primary-color)] text-white">
                 <FaWhatsapp />
               </span>
               <Link
                 href="https://wa.me/5511947802545"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition hover:text-(--primary-color)"
+                className="transition hover:text-[var(--primary-color)]"
               >
                 (11) 9 4780-2545
               </Link>
             </li>
 
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+            <li className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-2 md:gap-3 text-center md:text-left">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--primary-color)] text-white">
                 <FaEnvelope />
               </span>
               <a
                 href="mailto:krincorporadora2018@gmail.com"
-                className="transition hover:text-(--primary-color)"
+                className="transition hover:text-[var(--primary-color)]"
               >
                 krincorporadora2018@gmail.com
               </a>
             </li>
 
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+            <li className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-2 md:gap-3 text-center md:text-left">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--primary-color)] text-white">
                 <FaEnvelope />
               </span>
               <a
                 href="mailto:contatokellysw@gmail.com"
-                className="transition hover:text-(--primary-color)"
+                className="transition hover:text-[var(--primary-color)]"
               >
                 contatokellysw@gmail.com
               </a>
@@ -72,9 +72,9 @@ export default function Footer() {
 
         {/* Localização */}
         <div className="flex flex-col items-center md:items-start">
-          <h3 className="mb-4 text-lg ">Localização</h3>
-          <div className="flex items-start justify-center md:justify-start gap-3 text-sm">
-            <span className="mt-0.5 flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+          <h3 className="mb-4 text-lg">Localização</h3>
+          <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start gap-2 md:gap-3 text-sm text-center md:text-left">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--primary-color)] text-white">
               <FaMapMarkerAlt />
             </span>
             <address className="not-italic leading-relaxed">
@@ -83,8 +83,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      
     </footer>
   );
 }
