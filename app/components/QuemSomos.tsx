@@ -43,12 +43,12 @@ export default function QuemSomos() {
         </div>
 
         {/* Imagem */}
-        <div className="relative w-full h-[400px] md:h-[480px] rounded-3xl overflow-hidden shadow-lg">
+        <div className="relative w-full h-[400px] md:h-[580px] ">
           <Image
-            src="/imgs/quem-somos.png"
+            src="/imgs/quem-2.png"
             alt="Fachada de edifício KR Incorporada"
             fill
-            className="object-cover object-center rounded-3xl"
+            className=" object-center rounded-3xl"
             priority
           />
         </div>
