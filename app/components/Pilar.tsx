@@ -17,7 +17,7 @@ export default function ResidencialPilar() {
 
           <div className="mt-5 font-albert ">
             <div>
-              <ul className="list-disc  text-black pl-5 space-y-1">
+              <ul className="list-none   text-black  space-y-1">
                 <li>Apartamentos de 66m²</li>
                 <li>2 Dormitórios (1 suíte)</li>
                 <li>Varanda gourmet</li>
@@ -31,7 +31,7 @@ export default function ResidencialPilar() {
               href={`https://wa.me/${WHATSAPP}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm  text-white transition hover:opacity-90"
               aria-label="Fale conosco no WhatsApp sobre o Residencial Estrela"
             >
               Fale Conosco
@@ -47,7 +47,7 @@ export default function ResidencialPilar() {
             width={1280}
             height={820}
             priority
-            className="h-full"
+            className="h-[470px] md:w-[620px] w-auto "
           />
         </div>
 

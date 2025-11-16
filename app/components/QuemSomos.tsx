@@ -8,10 +8,10 @@ export default function QuemSomos() {
       <div className="max-w-6xl mx-auto px-6 md:px-8 grid md:grid-cols-2 gap-10 md:gap-20 items-center">
         {/* Texto */}
         <div className="space-y-5 text-center md:text-left">
-          <h2 className="text-(--primary-color) font-albert font-semibold text-2xl mb-0 tracking-wide">
+          <h2 className="text-(--primary-color) font-albert font-semibold text-3xl mb-0 tracking-wide">
             KR INCORPORADA
           </h2>
-          <h3 className="uppercase text-sm tracking-[0.2em] text-black font-semibold">
+          <h3 className="uppercase text-md tracking-[0.2em] font-semibold text-black ">
             Desde 2018
           </h3>
 

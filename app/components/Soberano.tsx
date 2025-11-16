@@ -32,16 +32,16 @@ export default function ResidencialSoberano() {
 
         {/* Texto à direita */}
         <div className="flex flex-col justify-center text-left">
-          <h2 className="font-montserrat text-black text-3xl md:text-4xl font-semibold leading-tight">
+          <h2 className="font-montserrat text-black text-3xl md:text-4xl  leading-tight">
             Residencial <br /> Soberano
           </h2>
 
-          <div className="mt-5 space-y-4 text-[15px] text-black">
+          <div className="mt-5 space-y-2 mb-0  text-black">
             <p>
               Apartamentos de 51m² à 76m²
             </p>
 
-            <ul className="list-none font-semibold space-y-1">
+            <ul className="list-none  space-y-1">
               <li>Espaço Beleza</li>
               <li>Área Churrasco</li>
               <li>Playground Infantil</li>
@@ -55,7 +55,7 @@ export default function ResidencialSoberano() {
               href={`https://wa.me/${WHATSAPP}?text=Olá!%20Tenho%20interesse%20no%20Residencial%20Soberano.`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full hover:bg-black bg-(--primary-color) px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center rounded-full hover:bg-black bg-(--primary-color) px-5 py-2 text-sm  text-white transition hover:opacity-90"
               aria-label="Fale conosco no WhatsApp sobre o Residencial Soberano"
             >
               Fale Conosco

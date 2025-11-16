@@ -34,7 +34,7 @@ export default function ResidencialEstrela() {
               href={`https://wa.me/${WHATSAPP}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm  text-white transition hover:opacity-90"
               aria-label="Fale conosco no WhatsApp sobre o Residencial Estrela"
             >
               Fale Conosco

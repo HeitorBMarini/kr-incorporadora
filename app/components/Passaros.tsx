@@ -36,12 +36,12 @@ export default function ResidencialPassaros() {
             Recanto dos <br /> Pássaros
           </h2>
 
-          <div className="mt-5 space-y-4 font-semibold text-black">
+          <div className="mt-5 space-y-4  text-black">
             <p>
               Apartamentos de 53m² à 72m²
             </p>
 
-            <ul className="list-none font-semibold space-y-1">
+            <ul className="list-none  space-y-1">
               <li>3 Torres</li>
               <li>3 Salões de Festas</li>
               <li>2 Espaços coworking</li>
@@ -55,7 +55,7 @@ export default function ResidencialPassaros() {
               href={`https://wa.me/${WHATSAPP}?text=Olá!%20Tenho%20interesse%20no%20Recanto%20dos%20Pássaros.`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center rounded-full bg-(--primary-color) hover:bg-black px-5 py-2 text-sm  text-white transition hover:opacity-90"
               aria-label="Fale conosco no WhatsApp sobre o Recanto dos Pássaros"
             >
               Fale Conosco
