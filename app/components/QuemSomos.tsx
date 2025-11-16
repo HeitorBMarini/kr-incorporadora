@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function QuemSomos() {
   return (
-    <section className="w-full bg-white py-16 md:py-24">
+    <section className="w-full bg-white py-10 md:py-10">
       <div className="max-w-6xl mx-auto px-6 md:px-8 grid md:grid-cols-2 gap-10 md:gap-20 items-center">
         {/* Texto */}
         <div className="space-y-5 text-center md:text-left">
