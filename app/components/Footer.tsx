@@ -7,87 +7,76 @@ import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer
-      className="w-full text-white py-10 md:py-14"
-      style={{
-        borderTop: "2px solid rgba(112, 64, 155, 0.25)",
-        background: "#01090B",
-      }}
+      className="
+        border-t 
+        border-t-[rgba(112,64,155,0.25)]
+        bg-[#01090B] text-white
+      "
     >
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 items-start">
+      <div className="mx-auto max-w-7xl px-4 py-10 grid gap-10 md:grid-cols-3 items-start">
         {/* Logo */}
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex items-center">
           <Image
             src="/imgs/logo.png"
-            alt="Logo KR Incorporadora"
+            alt="KR Incorporadora"
             width={140}
-            height={140}
-            className="object-contain"
+            height={60}
             priority
           />
         </div>
 
         {/* Contato */}
-        <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold mb-4 text-white">
-            Contato
-          </h3>
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Contato</h3>
 
-          <ul className="space-y-3 text-sm text-white/90">
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex items-center justify-center w-9 h-9 rounded-full bg-(--primary-color) text-white">
-                <FaWhatsapp size={14} />
+          <ul className="space-y-3 text-sm">
+            <li className="flex items-center gap-3">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+                <FaWhatsapp />
               </span>
               <Link
                 href="https://wa.me/5511947802545"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-(--primary-color) transition"
+                className="hover:underline"
               >
                 (11) 9 4780-2545
               </Link>
             </li>
 
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex items-center justify-center w-9 h-9 rounded-full bg-(--primary-color) text-white">
-                <FaEnvelope size={15} />
+            <li className="flex items-center gap-3">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+                <FaEnvelope />
               </span>
-              <Link
-                href="mailto:krincorporadora2018@gmail.com"
-                className="hover:text-(--primary-color) transition"
-              >
+              <a href="mailto:krincorporadora2018@gmail.com" className="hover:underline">
                 krincorporadora2018@gmail.com
-              </Link>
+              </a>
             </li>
 
-            <li className="flex items-center justify-center md:justify-start gap-3">
-              <span className="flex items-center justify-center w-9 h-9 rounded-full bg-(--primary-color) text-white">
-                <FaEnvelope size={15} />
+            <li className="flex items-center gap-3">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+                <FaEnvelope />
               </span>
-              <Link
-                href="mailto:contatokellysw@gmail.com"
-                className="hover:text-(--primary-color) transition"
-              >
+              <a href="mailto:contatokellysw@gmail.com" className="hover:underline">
                 contatokellysw@gmail.com
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
 
         {/* Localização */}
-        <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold mb-4 text-white">
-            Localização
-          </h3>
-          <p className="flex items-center justify-center md:justify-start gap-3 text-sm text-white/90 leading-relaxed">
-            <span className="flex items-center justify-center w-9 h-9 rounded-full bg-(--primary-color) text-white">
-              <FaMapMarkerAlt size={15} />
+        <div>
+          <h3 className="mb-4 text-lg font-semibold">Localização</h3>
+          <div className="flex items-start gap-3 text-sm">
+            <span className="mt-0.5 flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-white">
+              <FaMapMarkerAlt />
             </span>
-            R. Rio Branco, 1309 — Vila Bocaina, Mauá — SP, 09310-380
-          </p>
+            <address className="not-italic">
+              R. Rio Branco, 1309 – Vila Bocaina, Mauá – SP, 09310-380
+            </address>
+          </div>
         </div>
       </div>
-
-     
     </footer>
   );
 }
