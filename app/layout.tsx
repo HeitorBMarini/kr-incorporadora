@@ -15,7 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kr incorporadora",
   description: "Construtora",
+  icons: {
+    icon: "/imgs/favicon.png",
+  },
 };
+
 
 export default function RootLayout({
   children,
