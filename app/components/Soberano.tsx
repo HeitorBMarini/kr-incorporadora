@@ -32,7 +32,7 @@ export default function ResidencialSoberano() {
 
         {/* Texto à direita */}
         <div className="flex flex-col justify-center text-left">
-          <h2 className="font-montserrat text-black text-3xl md:text-4xl  leading-tight">
+          <h2 className="font-montserrat text-black text-3xl md:text-4xl font-bold  leading-tight">
             Residencial <br /> Soberano
           </h2>
 
