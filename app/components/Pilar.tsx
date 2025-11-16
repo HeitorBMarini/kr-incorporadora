@@ -47,7 +47,7 @@ export default function ResidencialPilar() {
             width={1280}
             height={820}
             priority
-            className="h-[340px] md:w-[620px] w-auto "
+            className="h-[270px] md:w-[620px] md:h-[470px] w-auto "
           />
         </div>
 
