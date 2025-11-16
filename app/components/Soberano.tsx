@@ -9,24 +9,27 @@ export default function ResidencialSoberano() {
   return (
     <section className="w-full py-12 md:py-16 bg-white">
       <div className="mx-auto max-w-7xl px-4 grid items-stretch gap-8 md:grid-cols-[1fr_1.5fr_1fr]">
-        {/* Imagem lateral esquerda */}
-        <div className="relative overflow-hidden  w-full md:w-[650px] h-[260px] sm:h-80 md:h-[380px]">
-          <Image
-            src="/imgs/soberano/soberano-1.png"
-            alt="Painel do Residencial Soberano"
-            fill
-           
-            priority
+        {/* Vídeo lateral esquerda */}
+        <div className="relative overflow-hidden w-full md:w-[650px] h-[260px] sm:h-80 md:h-[380px]">
+          <video
+            src="/videos/soberano.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover"
           />
         </div>
 
-        {/* Imagem central */}
+        {/* Vídeo central */}
         <div className="relative overflow-hidden mr-2 w-full h-[260px] sm:h-80 md:h-[380px]">
-          <Image
-            src="/imgs/soberano/soberano-2.png"
-            alt="Fachada do Residencial Soberano"
-            fill
-           
+          <video
+            src="/videos/soberano-2.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover"
           />
         </div>
 
@@ -37,9 +40,7 @@ export default function ResidencialSoberano() {
           </h2>
 
           <div className="mt-5 space-y-2 mb-0  text-black">
-            <p>
-              Apartamentos de 51m² à 76m²
-            </p>
+            <p>Apartamentos de 51m² à 76m²</p>
 
             <ul className="list-none  space-y-1">
               <li>Espaço Beleza</li>

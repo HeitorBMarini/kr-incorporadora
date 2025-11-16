@@ -9,24 +9,27 @@ export default function ResidencialPassaros() {
   return (
     <section className="w-full py-12 md:py-16 bg-white">
       <div className="mx-auto max-w-7xl px-4 grid items-stretch gap-8 md:grid-cols-[1fr_1.5fr_1fr]">
-        {/* Imagem lateral esquerda */}
+        {/* Vídeo lateral esquerda - MKT */}
         <div className="relative overflow-hidden w-full md:w-[650px] h-[260px] sm:h-80 md:h-[380px]">
-          <Image
-            src="/imgs/passaros/passaros-1.png"
-            alt="Painel do Recanto dos Pássaros"
-            fill
-            
-            priority
+          <video
+            src="/videos/mkt.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
           />
         </div>
 
-        {/* Imagem central */}
+        {/* Vídeo central - Recanto */}
         <div className="relative overflow-hidden w-full h-[260px] sm:h-80 md:h-[380px]">
-          <Image
-            src="/imgs/passaros/passaros-2.png"
-            alt="Banner vertical do Recanto dos Pássaros"
-            fill
-            
+          <video
+            src="/videos/recanto.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full "
           />
         </div>
 
@@ -37,9 +40,7 @@ export default function ResidencialPassaros() {
           </h2>
 
           <div className="mt-5 space-y-4  text-black">
-            <p>
-              Apartamentos de 53m² à 72m²
-            </p>
+            <p>Apartamentos de 53m² à 72m²</p>
 
             <ul className="list-none  space-y-1">
               <li>3 Torres</li>

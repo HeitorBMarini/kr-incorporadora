@@ -39,25 +39,27 @@ export default function ResidencialPilar() {
           </div>
         </div>
 
-        {/* Main board image */}
-        <div className="w-full  h-full ">
-          <Image
-            src="/imgs/pilar/pilar-1.png"
-            alt="Painel do Residencial pilar com plantas e fotos"
-            width={1280}
-            height={820}
-            priority
-            className="h-[270px] md:w-[620px] md:h-[470px] w-auto "
+        {/* Main board video */}
+        <div className="w-full h-[270px] md:h-[470px] overflow-hidden">
+          <video
+            src="/videos/pilar.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
           />
         </div>
 
         {/* Poster / vertical artwork */}
-        <div className="overflow-hidden ">
-          <Image
-            src="/imgs/pilar/pilar-2.png"
-            alt="Cartaz do Residencial pilar"
-            width={560}
-            height={980}
+        <div className="w-full h-[270px] md:h-[470px] overflow-hidden">
+          <video
+            src="/videos/pilar-2.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
