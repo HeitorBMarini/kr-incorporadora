@@ -17,7 +17,7 @@ export default function ResidencialSoberano() {
             loop
             muted
             playsInline
-            className="h-full w-full object-cover"
+            className="h-full w-full "
           />
         </div>
 
@@ -29,7 +29,7 @@ export default function ResidencialSoberano() {
             loop
             muted
             playsInline
-            className="h-full w-full object-cover"
+            className="h-full w-full "
           />
         </div>
 
